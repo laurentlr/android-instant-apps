@@ -3,7 +3,9 @@ package com.instantappsamples.feature.bye;
 import android.app.Application;
 import android.util.Log;
 
-public class ByeApplication extends Application  {
+import main.Toto;
+
+public class ByeApplication extends Application implements Toto {
 
     @Override
     public void onCreate() {
@@ -11,8 +13,8 @@ public class ByeApplication extends Application  {
         Log.e("laurent", "class : " + this.getClass().getName());
     }
 
-    /*@Override
+    @Override
     public void sayToto() {
-        Log.e("laurent", "toto");
-    }*/
+        Log.e("laurent", "ByeApplication ByeApplication");
+    }
 }

@@ -20,6 +20,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import main.Toto;
+
 /**
  * Simple activity that says goodbye.
  */
@@ -32,6 +34,6 @@ public class GoodbyeActivity extends AppCompatActivity {
 
         Log.e("laurent", "class : " + getApplication().getClass().getName());
 
-        ByeApplication application = (ByeApplication) getApplication();
+        ((Toto) getApplication()).sayToto();
     }
 }

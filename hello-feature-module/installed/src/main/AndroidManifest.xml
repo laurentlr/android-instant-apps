@@ -19,6 +19,6 @@
           xmlns:instant="http://schemas.android.com/instantapps"
           xmlns:tools="http://schemas.android.com/tools">
 
-    <application  tools:replace="android:name" android:name="com.instantappsamples.feature.installed.InstalledApp"/>
+    <application  tools:replace="android:name" android:name="com.instantappsamples.feature.hello.HelloApplication"/>
 
 </manifest>
